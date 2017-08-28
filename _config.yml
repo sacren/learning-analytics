@@ -1,0 +1,14 @@
+# _config.yml of learning-analytics-jekyll
+
+title: Learning Analytics
+description: Visual presentation of student learning behavior.
+baseurl: ""
+url: https://toothsome.github.io/learning-analytics-jekyll
+
+timezone: America/Denver
+encoding: utf-8
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
