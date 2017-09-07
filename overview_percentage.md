@@ -1,5 +1,5 @@
 ---
-layout: learning-analytics
+layout: learning_analytics
 title: Learning Analytics Overview Percentage
 hide_link: true
 ---
