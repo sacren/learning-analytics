@@ -5,3 +5,21 @@
 .button {
 	width: 12em;
 }
+
+select {
+        width: 12em;
+        height: 2em;
+        text-align-last: center;
+}
+
+div#output {
+        text-align:     center;
+        font-size:      200%;
+        color:          red;
+        margin-top:     15%;
+}
+
+input[type='submit'] {
+        width: 12em;
+        height: 2em;
+}
