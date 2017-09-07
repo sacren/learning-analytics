@@ -4,22 +4,23 @@
 
 .button {
 	width: 12em;
+	height: 1.8em;
 }
 
 select {
-        width: 12em;
-        height: 2em;
-        text-align-last: center;
+	width: 12em;
+	height: 1.8em;
+	text-align-last: center;
 }
 
 div#output {
-        text-align:     center;
-        font-size:      200%;
-        color:          red;
-        margin-top:     15%;
+	text-align:     center;
+	font-size:      120%;
+	color:          red;
+	margin-top:     5%;
 }
 
 input[type='submit'] {
-        width: 12em;
-        height: 2em;
+	width: 12em;
+	height: 1.8em;
 }
