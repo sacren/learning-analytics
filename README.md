@@ -1,3 +1,3 @@
-## [Learning Analytics](https://sacren.github.io/learning-analytics-jekyll/)
+## [Learning Analytics](https://sacren.github.io/learning-analytics/)
 
 Visual presentation of student learning behavior.
