@@ -1,3 +1,5 @@
-## [Learning Analytics](https://sacren.github.io/learning-analytics/)
+## [Learning Analytics][home page]
 
 Visual presentation of student learning behavior.
+
+[home page]: https://sacren.github.io
