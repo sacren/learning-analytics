@@ -2,4 +2,4 @@
 
 Visual presentation of student learning behavior.
 
-[home page]: https://sacren.github.io
+[home page]: https://for-uvu.github.io/learning-analytics/
