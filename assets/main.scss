@@ -57,3 +57,88 @@ input[type='submit'] {
   color: #800000;
   background-color: #FFFFDF;
 }
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: #000040;
+  text-align: center;
+}
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  text-align: left;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 15px;
+  border-bottom: 1px solid #888;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: #005f5f;
+}
+
+.nav a.active {
+  background-color: #aaa;
+  color: #444;
+  cursor: default;
+}
+
+/* Sub menu */
+.nav li li {
+  font-size: .8em;
+}
+
+/************************************************************
+   Style menu for larger screens
+
+   Using 640px (160px each * 4 items), but ems
+   or other values could be used depending on other factors
+************************************************************/
+
+@media screen and (min-width: 640px) {
+  .nav li {
+    width: 160px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.0em;
+    display: inline-block;
+    margin-right: -2px;
+  }
+
+  .nav a {
+    border-bottom: none;
+  }
+
+  .nav > ul > li {
+    text-align: center;
+  }
+
+  .nav > ul > li > a {
+    padding-left: 0;
+  }
+
+  /* Sub menu */
+  .nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+  .nav li:hover ul {
+    display: block;
+  }
+
+  .nav li ul li {
+    display: block;
+  }
+}
