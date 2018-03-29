@@ -22,8 +22,11 @@ div#output {
   margin-top: 5%;
 }
 
-iframe {
-  width: 320px;
+div#output > article {
+  max-height: 12em;
+  overflow: auto;
+  border-style: groove ridge ridge groove;
+  color: midnightblue;
 }
 
 input[type='submit'] {
