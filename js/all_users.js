@@ -24,7 +24,7 @@ window.jQuery(function ($) {
 
     submitForm: function () {
       $('form').submit(function () {
-        var url = 'https://mediafiles.uvu.edu/lib/extracted.php'
+        var url = 'https://mediafiles.uvu.edu/lib/t/pages.php'
 
         $('form input').prop('disabled', true)
         $('form + div').html('Pulling data, please wait...')
