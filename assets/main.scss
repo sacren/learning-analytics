@@ -10,17 +10,19 @@ select {
   text-align-last: center;
 }
 
-div#output {
-  text-align: center;
-  font-size: 120%;
-  color: red;
-  margin-top: 5%;
+div {
+  #output {
+    text-align: center;
+    font-size: 120%;
+    color: red;
+    margin-top: 5%;
 
-  article {
-    max-height: 12em;
-    overflow: auto;
-    border-style: groove ridge ridge groove;
-    color: midnightblue;
+    article {
+      max-height: 12em;
+      overflow: auto;
+      border-style: groove ridge ridge groove;
+      color: midnightblue;
+    }
   }
 }
 
