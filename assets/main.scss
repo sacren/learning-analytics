@@ -15,13 +15,13 @@ div#output {
   font-size: 120%;
   color: red;
   margin-top: 5%;
-}
 
-div#output > article {
-  max-height: 12em;
-  overflow: auto;
-  border-style: groove ridge ridge groove;
-  color: midnightblue;
+  article {
+    max-height: 12em;
+    overflow: auto;
+    border-style: groove ridge ridge groove;
+    color: midnightblue;
+  }
 }
 
 input[type='submit'] {
